@@ -1,0 +1,5 @@
+type server: ns1.unit.ua
+
+how to find:
+nslookup server 
+nslookup 10.51.1.253 | sed '1,3d' | awk '{print $4}' |  sed '/^$/d' | sed "s/.$//"

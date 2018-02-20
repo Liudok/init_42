@@ -1,0 +1,3 @@
+In order to make rerout in file /etc/hosts do following command:
+echo "46.19.122.85 intra.42.fr" 
+but we don't have necessary rights

@@ -1,0 +1,2 @@
+After using command ssh-keygen for generating public/private rsa key pair (and seting password) to find the file which contains public key for connection we go to cd .ssh
+and that we can see it with ls -la: "id_rsa.pub"

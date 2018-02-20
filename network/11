@@ -1,0 +1,3 @@
+1  10.111.254.254 (10.111.254.254)  0.334 ms  0.289 ms  0.162 ms
+
+traceroute slash16.org | sed '2,/end string pattern/d'

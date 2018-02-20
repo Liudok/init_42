@@ -1,0 +1,7 @@
+163.172.250.11
+163.172.250.12
+
+//command:
+nslookup 42.fr | grep "Address: " | awk '{print $2}'
+or
+ping 42.fr
